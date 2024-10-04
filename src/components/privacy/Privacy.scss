@@ -1,0 +1,48 @@
+@import "../../_globalColor";
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+.main {
+  padding-top: 0px; /* Adjust this value to reduce space */
+}
+
+.main-div-imprint {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: auto; /* Set a fixed max-width */
+}
+
+.div-heading-imprint {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px; /* Adjust this value to reduce space */
+}
+
+.imprint-content {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.imprint-content p {
+  margin-bottom: 10px;
+}
+
+.imprint-content a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.imprint-content a:hover {
+  text-decoration: underline;
+}
+
+header {
+    margin-bottom: 0; /* Ensure no margin below the header */
+  }
+  
+  header + .main {
+    margin-top: 0; /* Ensure no margin between header and main content */
+  }
