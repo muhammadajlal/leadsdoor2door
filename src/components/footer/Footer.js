@@ -16,8 +16,8 @@ export default function Footer() {
           {" "}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Developed by{" "}
-          <a href="https://developer.manda.gmbh/">
+          Entwickelt von {" "}
+          <a href="https://developer.manda.gmbh/" className="link">
             Manda GmbH
           </a>
         </p>

@@ -39,7 +39,7 @@ export default function IntroductionPage() {
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact Us" href="#contact" />
+                <Button text="Kontakt" href="#contact" />
                 {greeting.showResumeButton && greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}

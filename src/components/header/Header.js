@@ -88,7 +88,7 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contact Us</a>
+            <a href="#contact">Kontakt</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

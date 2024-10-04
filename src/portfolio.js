@@ -9,7 +9,7 @@ import splashAnimation from "./assets/lottie/splashAnimation.json"; // Rename to
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 0 // Set animation duration as per your animation
 };
 
 // Summary And IntroductionPage Section
@@ -133,7 +133,7 @@ https://fontawesome.com/icons?d=gallery */
 // Your top 3 proficient stacks/tech experience
 
 const contactInfo = {
-  title: emoji("Contact Us ☎️"),
+  title: emoji("Kontakt ☎️"),
   subtitle:
     "",
   number: "+4917688409447",
